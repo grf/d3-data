@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+
+require 'csv'
+require 'time'
+
+
+csv = CSV.parse(File.read('nutrients.csv'));
+
+# first line is:
+# ["date", "calories", "fat", "saturated", "carbohydrate", "fiber", "sugar", "protein", "sodium", "cholesterol", "potassium"]
+
+csv.shift
+
+csv.each do |date, calories, fat, _, carbohydrate, _, _, protein|
+  date = Time.parse(date).to_s[0..9]
+  fat_calories = fat.to_i * 9;
+  carbohydrate_calories = carbohydrate.to_i * 4;
+  protein_calories = protein.to_i * 4;
+  calories = calories.to_i
+  computed_calories = protein_calories + carbohydrate_calories + fat_calories
+  puts sprintf("%s   %3d   %4d/%4d", date, (calories - computed_calories), calories, computed_calories)
+end
