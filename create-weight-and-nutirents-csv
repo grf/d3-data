@@ -1,0 +1,177 @@
+#!/usr/bin/env ruby
+
+require 'csv'
+require 'time'
+
+# Extract relevant daily info from downloaded fatsecret csv reports, which need to be in the
+# current working directory, as well as a CSV of weight data named 'weights.csv'.
+#
+# Gather them all together and create a CSV fiile on stdout with these data:
+#   date('YYYY-MM-DD'), calories(kcals), fat(g), saturated(g), carbohydrate(g), fiber(g), sugar(g), protein(g), sodium(mg), cholesterol(mg), potassium (mg)
+#
+# Dates are complete and unique for the date ranges of the data, though there are missing values.
+#
+# Bugs: if multiple data for the same date are found, only one record is used.
+
+
+NUTRIENTS = [ :calories, :fat, :saturated, :carbohydrate, :fiber, :sugar, :protein, :sodium, :cholesterol, :potassium ]
+FIELDS    = [ :weight ] + NUTRIENTS
+
+FOOD_DIARIES = Dir['FoodDiary*foods.csv']
+
+
+def coerce_nutrient_record(hash)
+  rec = {}
+  rec[:date] = Date.parse(hash['date'].to_s)
+  NUTRIENTS.each do |k|
+   rec[k.to_sym] = hash[k] ? hash[k].to_f : nil
+  end
+  return rec
+end
+
+
+def coerce_weight_record(hash)
+  rec =  {
+    date: Date.parse(hash['date'].to_s),
+    weight: hash['weight'] ? hash['weight'].to_f : nil
+  }
+  return rec
+end
+
+# return a list of nutrient records of form:  { date: "2020-01-07", calories: 331.0, fat: 7.06, saturated: 4.185, carbohydrate: 55.39, fiber: 2.0, sugar: 9.03, protein: 10.09, sodium: 433.0, cholesterol: 16.0, potassium: 17.0 }
+
+def read_food_diary(filename)
+  # Read in CSV data such as
+  #
+  # date,calories,fat,saturated,carbohydrate,fiber,sugar,protein,sodium,cholesterol,potassium
+  # "Tuesday, January 7, 2020",331,7.06,4.185,55.39,2,9.03,10.09,433,16,17
+  # "Friday, January 10, 2020",1239,29.05,4.806,78.96,13.3,9.53,45.52,1543,52,1827....
+  # ...
+
+  str = ([ 'date' ] + NUTRIENTS).join(',') + "\n"
+
+  File.open(filename) do |fh|
+    while (line = fh.gets) do
+      next unless line =~ /^"(Mon|Tue|Wed|Thu|Fri|Sat|Sun)/
+      str += line.strip + "\n"
+    end
+  end
+
+  data = CSV.parse(str, headers: true)
+  list = []
+
+  data.each do |d|
+    old = d.to_h
+    rec = {}
+    old.keys.each { |k| rec[k.to_sym] = old[k] }
+    list.push coerce_nutrient_record(rec)
+  end
+
+  return list
+end
+
+# return a list of nutrient records as in read_food_diary(filename) above, collated and sorted
+
+def read_nutrient_data()
+  nutrients_list = []
+  FOOD_DIARIES.each { |filename|  nutrients_list += read_food_diary(filename) }
+  return nutrients_list.sort { |a,b| a[:date] <=> b[:date] }
+end
+
+# return a list of weight records of form { date: "2020-01-07", weight: 261.2 }
+
+def read_weight_data()
+  # Read in CSV data as so:
+  #
+  #   date,weight
+  #   2020-01-07,261.2
+  #   2020-01-09,260.1
+  #   ...
+  #
+
+  data = CSV.parse(File.read('weight.csv'), headers: true)
+  list = []
+  data.each { |d|  list.push coerce_weight_record(d.to_h) }
+  return list.sort { |a,b| a[:date] <=> b[:date] }
+end
+
+# clean up the raw hash from the nutrients csv file, returning
+
+def coerce_nutrient_record(hash)
+  rec = {}
+  rec[:date] = Date.parse(hash[:date]).to_s
+  NUTRIENTS.each do |k|
+    rec[k.to_sym] = hash[k] ? hash[k].to_f : nil
+  end
+  return rec
+end
+
+
+def coerce_weight_record(hash)
+
+  return {
+    date: hash['date'].to_s,
+    weight: hash['weight'] ? hash['weight'].to_f : nil
+  }
+end
+
+
+def get_data
+  return  (read_weight_data + read_nutrient_data).sort { |a,b| a[:date] <=> b[:date] }
+end
+
+
+def create_diary_dictionary(data)
+  date = Date.parse data[0][:date]
+  last_date  = Date.parse data[-1][:date]
+
+  records = {}
+
+  # hash[date] = { date: date-string, weight: nil, calories: nil, etc. }
+
+  while date <= last_date do
+    rec = {}
+    rec[:date] = date.to_s
+    FIELDS.each { |f| rec[f] = nil }
+    records[date.to_s] = rec
+    date += 1
+  end
+
+  return records
+end
+
+# return a list of records { date: date, weight: int, calories: int,...  etc }
+# ordered by date, with no date gaps (record fields can be nil valued)
+
+def merge_records_to_list(data)
+  diary = create_diary_dictionary(data)  # hash[date] => { date: date, weight: nil, calories: nil, etc }
+  data.each do |datum|
+    begin
+      date = datum[:date]
+      rec = diary[date]
+      rec.keys.each do |k|
+        rec[k] = datum[k] unless datum[k].nil?
+      end
+    rescue => e
+      STDERR.puts "bad data #{date.inspect}: #{e}"
+      exit -1
+    end
+  end
+
+
+  list = []
+  dates = diary.keys.sort
+  dates.each do |date|
+    list.push diary[date].values
+  end
+
+  return list
+end
+
+
+puts  ([ :date ] + FIELDS).join(',')
+merge_records_to_list(get_data()).each do |rec|
+  date = rec.shift
+  line = ([ '"' + date + '"' ] + rec).join(',')
+  puts line
+end
