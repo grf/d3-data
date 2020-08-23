@@ -6,10 +6,10 @@
 # Period Summary
 #-------------------------------------------
 Daily Average,Cals ( kcal),Fat( g),Carbs( g),Prot( g)
-Total,1616,68.39,148.24,85.48
+Total,1654,68.39,148.24,85.48
 Breakfast,261,12.54,19.95,16.84
 Lunch,338,15.61,32.98,17.47
-Dinner,497,22.26,44.53,25.93
+Dinner,535,22.26,44.53,25.93
 Snacks/Other,521,17.98,50.79,25.24
 
 #-------------------------------------------
@@ -601,7 +601,7 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
   Dole California Whole Pitted Dates,110,0,0,30,3,25,1,0,0,260
 "   5-6 dates, 40 g"
 
-"Friday, August 21, 2020",1050,53,14.324,71.27,12.2,8.05,75.01,875,887,979
+"Friday, August 21, 2020",1926,53,14.324,71.27,12.2,8.05,75.01,875,887,979
  Breakfast,,,,,,,,,,
  Lunch,494,33.88,7.698,20.54,5,2.54,30.16,285,846,268
   Egg,294,19.88,6.198,1.54,0,1.54,25.16,280,846,268
@@ -612,7 +612,7 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
 "   5 medium, 84 g"
   Trader Joe's Grapeseed Oil,120,14,1.5,0,,,0,0,0,
 "   1 tbsp, 15 ml"
- Dinner,331,9.81,4.886,50.73,7.2,5.51,11.82,189,21,476
+ Dinner,1207,9.81,4.886,50.73,7.2,5.51,11.82,189,21,476
   Corn Tortilla,209,2.74,0.435,42.85,6,0.84,5.47,43,0,179
    4 medium (approx 6" dia)
   Nature's Promise Organic Grape Tomatoes,30,0,0,6,1,4,1,13,0,250
@@ -621,6 +621,8 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
 "   1/2 oz, raw, yields"
   Colby Cheese,87,7.06,4.448,0.57,0,0.11,5.23,133,21,28
    22 g
+  Jameson Irish Whiskey,876,0,0,0,0,0,0,0,0,
+   13 oz
  Snacks/Other,225,9.31,1.74,0,0,0,33.03,401,20,235
   Tuna in Oil (Canned),225,9.31,1.74,0,0,0,33.03,401,20,235
    4 oz
@@ -657,4 +659,4 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
  Dinner,,,,,,,,,,
  Snacks/Other,,,,,,,,,,
 
-Total,37177,1573,579.858,3409.48,376.42,1118.43,1966.13,49078.64,12873.11,44556.11
+Total,38053,1573,579.858,3409.48,376.42,1118.43,1966.13,49078.64,12873.11,44556.11
