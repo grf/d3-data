@@ -6,11 +6,11 @@
 # Period Summary
 #-------------------------------------------
 Daily Average,Cals ( kcal),Fat( g),Carbs( g),Prot( g)
-Total,1635,41.07,150.26,48.21
+Total,2087,53.69,172.76,63.61
 Breakfast,5,0.09,0.19,0.57
 Lunch,763,13.35,48.06,19.86
-Dinner,766,23.51,89.94,23.81
-Snacks/Other,102,4.13,12.08,3.97
+Dinner,953,31.79,103.62,37.04
+Snacks/Other,367,8.46,20.9,6.14
 
 #-------------------------------------------
 # Report Details
@@ -67,7 +67,7 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
   Goats Cheese (Soft),88,6.96,4.81,0.29,0,0.29,6.11,121,15,9
    33 g
 
-"Thursday, September 3, 2020",392,17.68,6.962,44.66,4.5,2.93,14.51,596,16,605
+"Thursday, September 3, 2020",1746,55.53,13.541,112.15,9.4,12.02,60.72,1786,46,2242
  Breakfast,7,0.14,0.014,0.28,0,0,0.85,14,0,334
   Coffee,7,0.14,0.014,0.28,0,0,0.85,14,0,334
    3 mugs (8 fl oz)
@@ -84,7 +84,21 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
    1/4 cup
   Publix Red Bell Pepper,22,0,0,6,1.5,0,0.75,0,0,
 "   3/4  x 1 medium pepper, 111 g"
- Dinner,,,,,,,,,,
- Snacks/Other,,,,,,,,,,
+ Dinner,560,24.85,4.579,41.03,2.9,3.47,39.69,960,30,510
+  Flour Tortillas,218,5.42,1.32,35.94,2.2,1.34,5.8,445,0,108
+   1 tortilla (approx 10" dia)
+  Tuna in Oil (Canned),225,9.31,1.74,0,0,0,33.03,401,20,235
+   4 oz
+  Hellmann's Real Mayonnaise,90,10,1.5,0,0,0,0,90,10,
+"   1 tbsp, 13 g"
+  Lee Kum Kee Sriracha Chili Sauce,20,0,0,4,0,2,0,,,
+"   2  x 1 tsp, 14 g"
+  Spinach,7,0.12,0.019,1.09,0.7,0.13,0.86,24,0,167
+   1 cup
+ Snacks/Other,794,13,2,26.46,2,5.62,6.52,230,0,1127
+  Red Table Wine,634,0,0,19.46,0,4.62,0.52,30,0,947
+   750 ml
+  Essential Everyday Dry Roasted Peanuts,160,13,2,7,2,1,6,200,0,180
+"   1/4 cup, 28 g"
 
-Total,4906,123.22,45.599,450.79,31.1,83.73,144.62,5706,421,5382
+Total,6260,161.07,52.178,518.28,36,92.82,190.83,6896,451,7019
