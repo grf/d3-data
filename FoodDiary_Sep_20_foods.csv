@@ -6,11 +6,11 @@
 # Period Summary
 #-------------------------------------------
 Daily Average,Cals ( kcal),Fat( g),Carbs( g),Prot( g)
-Total,1922,46.67,179.38,53.8
+Total,2057,51.43,199.56,57.54
 Breakfast,2,0.05,0.09,0.28
 Lunch,478,9.56,35.53,16.36
-Dinner,1066,31.22,127.22,32.5
-Snacks/Other,376,5.84,16.53,4.66
+Dinner,1173,35.25,141.92,35.69
+Snacks/Other,404,6.58,22.02,5.2
 
 #-------------------------------------------
 # Report Details
@@ -137,7 +137,7 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
   Whiskey,882,0,0,0.35,0,0,0,4,0,7
    12.6 fl oz (no ice)
 
-"Sunday, September 6, 2020",580,17.35,2.919,69.01,2.34,54.23,38.58,456.84,77,1093.56
+"Sunday, September 6, 2020",1391,45.95,11.371,190.12,14.84,76.52,61.05,2285.84,98.5,1695.56
  Breakfast,,,,,,,,,,
  Lunch,580,17.35,2.919,69.01,2.34,54.23,38.58,456.84,77,1093.56
   Salmon,248,10.09,2.143,0,0,0,36.78,78,77,720
@@ -152,7 +152,21 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
    3 peppers
   Trader Joe's Grapeseed Oil,60,7,0.75,0,,,0,0,0,
 "   1/2  x 1 tbsp, 7.5 ml"
- Dinner,,,,,,,,,,
- Snacks/Other,,,,,,,,,,
+ Dinner,642,24.17,8.012,88.16,8.3,2.96,19.17,1000,14,225
+  Flour Tortilla,437,10.85,2.64,71.89,4.3,2.69,11.61,890,0,217
+   2 large (approx 10" dia)
+  Goats Cheese (Soft),80,6.32,4.372,0.27,0,0.27,5.56,110,14,8
+   30 g
+  Publix Red Bell Pepper,60,0,0,16,4,0,2,0,0,
+"   2  x 1 medium pepper, 296 g"
+  Lee Kum Kee Chili Oil,65,7,1,0,0,0,0,0,,
+"   1/2  x 1 tbsp, 7.5 ml"
+ Snacks/Other,169,4.43,0.44,32.95,4.2,19.33,3.3,829,7.5,377
+  Crown Prince Flat Anchovies in Olive Oil ,20,1.25,0,0,0,0,2,525,7.5,0
+"   1/2  x 6 pieces , 7.5 g"
+   Green Olives,28,2.99,0.396,0.75,0.6,0.11,0.2,303,0,8
+   1/2 10 large serving
+   Dried Prune,121,0.19,0.044,32.2,3.6,19.22,1.1,1,0,369
+   6 prunes
 
-Total,11530,280,106.194,1076.25,75.08,225.47,322.77,13686.41,594,12076.34
+Total,12341,308.6,114.646,1197.36,87.58,247.76,345.24,15515.41,615.5,12678.34
