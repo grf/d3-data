@@ -6,11 +6,11 @@
 # Period Summary
 #-------------------------------------------
 Daily Average,Cals ( kcal),Fat( g),Carbs( g),Prot( g)
-Total,1719,45.38,174.94,52.59
-Breakfast,2,0.03,0.06,0.19
-Lunch,409,9.04,32.22,13.39
-Dinner,972,29.86,118.84,32.65
-Snacks/Other,336,6.46,23.82,6.36
+Total,1524,48.54,136.25,55.65
+Breakfast,154,7.89,11.32,9.36
+Lunch,365,10.35,35.45,14.34
+Dinner,664,21.19,69.12,22.44
+Snacks/Other,341,9.11,20.37,9.51
 
 #-------------------------------------------
 # Report Details
@@ -21,7 +21,7 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
  Breakfast,,,,,,,,,,
  Lunch,1154,0,0,26.89,0,0,3.48,30,0,204
   Jameson Irish Whiskey,828,0,0,0,0,0,0,0,0,
-"   12  x 1 shot, 12 oz"
+"   12 x 1 shot, 12 oz"
   Regular Beer,326,0,0,26.89,0,0,3.48,30,0,204
    25 1/2 fl oz
  Dinner,1829,42.91,20.641,226.68,8.2,68.47,57.7,2723,98,2241
@@ -75,7 +75,7 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
   Flour Tortilla,218,5.42,1.32,35.94,2.2,1.34,5.8,445,0,108
    1 large (approx 10" dia)
   Trader Joe's Grapeseed Oil,40,4.62,0.5,0,,,0,0,0,
-"   1/3  x 1 tbsp, 5 ml"
+"   1/3 x 1 tbsp, 5 ml"
   Goats Cheese (Soft),94,7.38,5.101,0.31,0,0.31,6.48,129,16,9
    35 g
   Grape Tomatoes,9,0.09,0.022,1.86,0.6,1.25,0.42,2,0,112
@@ -83,7 +83,7 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
   Spinach,2,0.03,0.005,0.27,0.2,0.03,0.21,6,0,42
    1/4 cup
   Publix Red Bell Pepper,22,0,0,6,1.5,0,0.75,0,0,
-"   3/4  x 1 medium pepper, 111 g"
+"   3/4 x 1 medium pepper, 111 g"
  Dinner,560,24.85,4.579,41.03,2.9,3.47,39.69,960,30,510
   Flour Tortillas,218,5.42,1.32,35.94,2.2,1.34,5.8,445,0,108
    1 tortilla (approx 10" dia)
@@ -92,7 +92,7 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
   Hellmann's Real Mayonnaise,90,10,1.5,0,0,0,0,90,10,
 "   1 tbsp, 13 g"
   Lee Kum Kee Sriracha Chili Sauce,20,0,0,4,0,2,0,,,
-"   2  x 1 tsp, 14 g"
+"   2 x 1 tsp, 14 g"
   Spinach,7,0.12,0.019,1.09,0.7,0.13,0.86,24,0,167
    1 cup
  Snacks/Other,794,13,2,26.46,2,5.62,6.52,230,0,1127
@@ -147,23 +147,23 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
   Del Monte Whole New Potatoes,63,0,0,14.62,1.04,1.04,1.04,375.84,0,250.56
    165 g
   Pompeian White Wine Vinegar,4,0,0,0,0,0,0,0,0,0
-"   2  x 1 tbsp, 30 ml"
+"   2 x 1 tbsp, 30 ml"
   Jalapeno Peppers,13,0.26,0.026,2.48,1.2,1.45,0.57,0,0,90
    3 peppers
   Trader Joe's Grapeseed Oil,60,7,0.75,0,,,0,0,0,
-"   1/2  x 1 tbsp, 7.5 ml"
+"   1/2 x 1 tbsp, 7.5 ml"
  Dinner,642,24.17,8.012,88.16,8.3,2.96,19.17,1000,14,225
   Flour Tortilla,437,10.85,2.64,71.89,4.3,2.69,11.61,890,0,217
    2 large (approx 10" dia)
   Goats Cheese (Soft),80,6.32,4.372,0.27,0,0.27,5.56,110,14,8
    30 g
   Publix Red Bell Pepper,60,0,0,16,4,0,2,0,0,
-"   2  x 1 medium pepper, 296 g"
+"   2 x 1 medium pepper, 296 g"
   Lee Kum Kee Chili Oil,65,7,1,0,0,0,0,0,,
-"   1/2  x 1 tbsp, 7.5 ml"
+"   1/2 x 1 tbsp, 7.5 ml"
  Snacks/Other,169,4.43,0.44,32.95,4.2,19.33,3.3,829,7.5,377
   Crown Prince Flat Anchovies in Olive Oil ,20,1.25,0,0,0,0,2,525,7.5,0
-"   1/2  x 6 pieces , 7.5 g"
+"   1/2 x 6 pieces , 7.5 g"
    Green Olives,28,2.99,0.396,0.75,0.6,0.11,0.2,303,0,8
    1/2 10 large serving
    Dried Prune,121,0.19,0.044,32.2,3.6,19.22,1.1,1,0,369
@@ -214,7 +214,7 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
    Mayonnaise ,57,4.91,0.72,3.51,0,0.94,0.13,105,4,1
    1 tbsp
   Huy Fong Foods Sriracha Hot Chili Sauce,15,0,,3,0,3,0,240,0,
-"   3  x 1 tsp, 15 g"
+"   3 x 1 tsp, 15 g"
    Tuna in Oil (Canned),225,9.31,1.74,0,0,0,33.03,401,20,235
    4 oz
    Fennel Bulb,3,0.03,0.009,0.59,0.3,0.37,0.14,16,0,52
@@ -225,4 +225,204 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
    10 g
  Snacks/Other,,,,,,,,,,
 
-Total,15471,408.46,147.936,1574.44,124.69,296.74,473.32,20204.96,758.5,14787.74
+"Thursday, September 10, 2020",1606,68.46,32.071,129.7,17.6,26.93,114.3,4286,761,1056
+ Breakfast,,,,,,,,,,
+ Lunch,728,11.33,4.745,123.64,17.6,24.65,33.28,3270,0,570
+  Split Pea Soup,495,8.78,4.2,79.5,15,24.45,25.8,2752,0,570
+   750 g
+   Baguette,233,2.55,0.545,44.14,2.6,0.2,7.48,518,0,
+   3 oz
+ Dinner,467,32.98,16.204,4.66,0,2.02,36.37,335,694,251
+   Swiss Cheese ,247,18.07,11.556,3.5,0,0.86,17.5,125,60,50
+   65 g
+   Egg,220,14.91,4.648,1.16,0,1.16,18.87,210,634,201
+   3 large
+ Snacks/Other,411,24.15,11.122,1.4,0,0.26,44.65,681,67,235
+   Havarti Cheese,186,14.84,9.382,1.4,0,0.26,11.62,280,47,
+   50 g
+   Tuna in Oil (Canned),225,9.31,1.74,0,0,0,33.03,401,20,235
+   4 oz
+
+"Sunday, September 13, 2020",1400,67.62,17.398,74.96,5.5,17.24,76.76,2672,712,784
+ Breakfast,220,14.91,4.648,1.16,0,1.16,18.87,210,634,201
+  Egg,220,14.91,4.648,1.16,0,1.16,18.87,210,634,201
+   3 large
+ Lunch,335,19.31,3.24,4,0,4,33.03,811,30,235
+   Tuna in Oil (Canned),225,9.31,1.74,0,0,0,33.03,401,20,235
+   4 oz
+  Hellmann's Real Mayonnaise,90,10,1.5,0,0,0,0,90,10,
+"   1 tbsp, 13 g"
+  Huy Fong Foods Sriracha Hot Chili Sauce,20,0,,4,0,4,0,320,0,
+"   4 x 1 tsp, 20 g"
+ Dinner,845,33.4,9.51,69.8,5.5,12.08,24.86,1651,48,348
+   Bread,247,3.06,0.667,47.07,2.2,4.01,7.11,633,0,93
+   93 g
+   Italian Sausage,289,22.94,8.009,3.59,0.1,0.72,16.06,1014,48,255
+   4 oz raw (yield after cooking)
+   Bell Peppers,31,0.36,0.07,7.18,2.4,5,1.18,2,0,
+"   1 medium (approx 2-3/4"" long, 2-1/2"" dia)"
+   Red Onions,23,0.04,0.014,5.56,0.8,2.35,0.51,2,0,
+   1/2 medium
+  Trader Joe's Grapeseed Oil,60,7,0.75,0,,,0,0,0,
+"   1/2 x 1 tbsp, 7.5 ml"
+  Alamos Malbec,195,0,,6.4,,,0,,,
+   8 oz
+ Snacks/Other,,,,,,,,,,
+
+"Monday, September 14, 2020",391,30.2,8.791,10.6,2.6,4.22,18.8,1038,48,862
+ Breakfast,386,30.11,8.782,10.41,2.6,4.22,18.23,1029,48,639
+  Italian Sausage,289,22.94,8.009,3.59,0.1,0.72,16.06,1014,48,255
+   4 oz raw (yield after cooking)
+  Trader Joe's Grapeseed Oil,60,7,0.75,0,,,0,0,0,
+"   1/2 x 1 tbsp, 7.5 ml"
+  Red Onions,15,0.03,0.009,3.54,0.5,1.5,0.32,1,0,50
+   1/2 small
+  Trader Joe's Shishito Peppers,15,0,0,3,2,2,1,0,0,
+"   7 peppers, 45 g"
+  Coffee,7,0.14,0.014,0.28,0,0,0.85,14,0,334
+   3 mugs (8 fl oz)
+ Lunch,5,0.09,0.009,0.19,0,0,0.57,9,0,223
+  Coffee,5,0.09,0.009,0.19,0,0,0.57,9,0,223
+   2 mugs (8 fl oz)
+ Dinner,,,,,,,,,,
+ Snacks/Other,,,,,,,,,,
+
+"Tuesday, September 15, 2020",2401,68.21,24.694,141.65,7.6,19.74,88.02,3043,499,1340
+ Breakfast,633,26.39,11.082,48.66,2,2.16,49.35,1441,52,598
+  Mission Soft Taco Flour Tortillas (Medium),280,7,3,48,2,2,8,840,0,
+"   2 x 1 tortilla, 98 g"
+  Cheddar Cheese ,121,9.94,6.328,0.38,0,0.16,7.47,186,32,29
+   30 g
+  Tuna in Oil (Canned),225,9.31,1.74,0,0,0,33.03,401,20,235
+   4 oz
+  Coffee,7,0.14,0.014,0.28,0,0,0.85,14,0,334
+   3 mugs (8 fl oz)
+ Lunch,,,,,,,,,,
+ Dinner,1462,20.89,7.061,74.96,3.6,3.75,24.81,1304,423,213
+  Jameson Irish Whiskey,876,0,0,0,0,0,0,0,0,
+   13 oz
+  Flour Tortilla,159,3.95,0.962,26.19,1.6,0.98,4.23,324,0,79
+   1 medium (approx 8" dia)
+  Mission Soft Taco Flour Tortillas (Medium),280,7,3,48,2,2,8,840,0,
+"   2 x 1 tortilla, 98 g"
+  Egg,147,9.94,3.099,0.77,0,0.77,12.58,140,423,134
+   2 large
+ Snacks/Other,306,20.93,6.551,18.03,2,13.83,13.86,298,24,529
+  Essential Everyday Dry Roasted Peanuts,160,13,2,7,2,1,6,200,0,180
+"   1/4 cup, 28 g"
+  Whole Milk,146,7.93,4.551,11.03,0,12.83,7.86,98,24,349
+   1 cup
+
+"Wednesday, September 16, 2020",1224,56.76,23.389,103.92,4,8.97,74.21,2876,505,420
+ Breakfast,577,21.22,5.46,54.51,2,5.94,41.16,1586,24,236
+  Mission Soft Taco Flour Tortillas (Medium),280,7,3,48,2,2,8,840,0,
+"   2 x 1 tortilla, 98 g"
+  Tuna in Oil (Canned),225,9.31,1.74,0,0,0,33.03,401,20,235
+   4 oz
+  Mayonnaise ,57,4.91,0.72,3.51,0,0.94,0.13,105,4,1
+   1 tbsp
+  Huy Fong Foods Sriracha Hot Chili Sauce,15,0,,3,0,3,0,240,0,
+"   3 x 1 tsp, 15 g"
+ Lunch,221,10.13,5.718,24.26,1,1.1,8.98,544,21,20
+  Mission Soft Taco Flour Tortillas (Medium),140,3.5,1.5,24,1,1,4,420,0,
+"   1 tortilla, 49 g"
+  Cheddar Cheese ,81,6.63,4.218,0.26,0,0.1,4.98,124,21,20
+   20 g
+ Dinner,426,25.41,12.211,25.15,1,1.93,24.07,746,460,164
+  Cheddar Cheese,121,9.94,6.328,0.38,0,0.16,7.47,186,32,29
+   30 g
+  Mission Soft Taco Flour Tortillas (Medium),140,3.5,1.5,24,1,1,4,420,0,
+"   1 tortilla, 49 g"
+  Butter ,18,2.03,1.284,0,0,0,0.02,0,5,1
+"   1/2 pat (1"" sq, 1/3"" high)"
+  Egg,147,9.94,3.099,0.77,0,0.77,12.58,140,423,134
+   2 large
+ Snacks/Other,,,,,,,,,,
+
+"Saturday, September 19, 2020",1159,46.03,15.873,146.95,15.8,10.18,43.06,2988,66,867
+ Breakfast,,,,,,,,,,
+ Lunch,1142,45.99,15.872,142.57,15.3,6.44,42.82,2987,66,786
+  Penne,605,3.56,0.674,118.1,6.9,2.14,22.2,896,0,
+   2 3/4 cups cooked
+  Butter ,102,11.52,7.294,0.01,0,0.01,0.12,2,31,3
+   1 tbsp
+  Olive Oil ,179,20.25,2.796,0,0,0,0,0,0,0
+   1 1/2 tbsps
+  Lemon Juice ,6,0,0,2.03,0.1,0.56,0.09,0,0,29
+   1/2 lemon yields
+  Cooked Broccoli (Fat Not Added in Cooking),85,0.99,0.192,17.31,8,3.35,5.75,674,0,706
+"   2 1/2 cups, flowerets"
+  Brunswick Anchovies - Flat Fillets in Olive Oil,25,1.5,0,0,0,0,3,980,10,
+"   4 pieces, 15 g"
+  Garlic ,18,0.06,0.011,3.97,0.3,0.12,0.76,2,0,48
+   4 cloves
+  Grated Romano Cheese,122,8.11,4.905,1.15,0,0.26,10.9,433,25,
+   1 oz
+ Dinner,,,,,,,,,,
+ Snacks/Other,17,0.04,0.001,4.38,0.5,3.74,0.24,1,0,81
+  Dried Apricot,17,0.04,0.001,4.38,0.5,3.74,0.24,1,0,81
+   2 halves
+
+"Sunday, September 20, 2020",2383,60.77,35.546,128.48,4,4.5,55.16,2742.64,122,1048
+ Breakfast,,,,,,,,,,
+ Lunch,,,,,,,,,,
+ Dinner,,,,,,,,,,
+ Snacks/Other,2383,60.77,35.546,128.48,4,4.5,55.16,2742.64,122,1048
+  Jameson Irish Whiskey,876,0,0,0,0,0,0,0,0,
+   13 oz
+  Beer,329,0,0,27.16,0,0,3.52,31,0,207
+   25 1/2 fl oz
+  White Rice,306,0.66,0.18,66.12,0.9,0.12,6.3,865,0,83
+   1 1/2 cups cooked
+  Scallops,488,24.66,4.986,23.6,1.1,1.85,40.81,1096,122,758
+   225 g
+  Thai Kitchen Red Curry Paste,30,0,0,4,2,0,2,700,0,
+"   2 x 1 tbsp , 30 g"
+  Thai Kitchen Coconut Milk,354,35.45,30.38,7.6,0,2.53,2.53,50.64,0,0
+   200 ml
+
+"Monday, September 21, 2020",878,42.87,17.244,89.2,5.8,10.6,36.17,1698,471,699
+ Breakfast,429,24.72,7.127,35.78,3.6,5.04,17.19,535,434,626
+  Potato,161,3.72,0.71,30.01,2.6,1.27,2.57,394,0,491
+   155 g
+  Egg,147,9.94,3.099,0.77,0,0.77,12.58,140,423,134
+   2 large
+  Trader Joe's Grapeseed Oil,60,7,0.75,0,,,0,0,0,
+"   1/2 x 1 tbsp, 7.5 ml"
+  Dole Green Onion,10,0,0,2,1,1,1,0,0,0
+"   2 medium onions, 30 g"
+  Butter ,36,4.06,2.568,0,0,0,0.04,1,11,1
+"   1 pat (1"" sq, 1/3"" high)"
+  Spice World Shallots,15,0,0,3,0,2,1,0,0,0
+"   1 shallot, 30 g"
+ Lunch,449,18.15,10.117,53.42,2.2,5.56,18.98,1163,37,73
+  Mission Soft Taco Flour Tortillas (Medium),280,7,3,48,2,2,8,840,0,
+"   2 x 1 tortilla, 98 g"
+  Swiss Cheese ,152,11.12,7.112,2.15,0,0.53,10.77,77,37,31
+   40 g
+  Spinach ,2,0.03,0.005,0.27,0.2,0.03,0.21,6,0,42
+   1/4 cup
+  Huy Fong Foods Sriracha Hot Chili Sauce,15,0,,3,0,3,0,240,0,
+"   3 x 1 tsp, 15 g"
+ Dinner,,,,,,,,,,
+ Snacks/Other,,,,,,,,,,
+
+"Tuesday, September 22, 2020",512,24.31,6.908,52.67,2.7,5.11,21.98,1061,423,473
+ Breakfast,512,24.31,6.908,52.67,2.7,5.11,21.98,1061,423,473
+  Mission Soft Taco Flour Tortillas (Medium),280,7,3,48,2,2,8,840,0,
+"   2 x 1 tortilla, 98 g"
+  Egg,147,9.94,3.099,0.77,0,0.77,12.58,140,423,134
+   2 large
+  Trader Joe's Grapeseed Oil,60,7,0.75,0,,,0,0,0,
+"   1/2 x 1 tbsp, 7.5 ml"
+  Hoisin Sauce ,9,0.14,0.023,1.76,0.1,1.09,0.13,65,0,5
+   1/4 tbsp
+  Coffee,7,0.14,0.014,0.28,0,0,0.85,14,0,334
+   3 mugs (8 fl oz)
+  Grape Tomatoes,9,0.09,0.022,1.86,0.6,1.25,0.42,2,0,
+   6 grape
+ Lunch,,,,,,,,,,
+ Dinner,,,,,,,,,,
+ Snacks/Other,,,,,,,,,,
+
+Total,27425,873.69,329.85,2452.57,190.29,404.23,1001.78,42609.6,4365.5,22336.74
