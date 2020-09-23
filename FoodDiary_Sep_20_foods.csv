@@ -6,11 +6,11 @@
 # Period Summary
 #-------------------------------------------
 Daily Average,Cals ( kcal),Fat( g),Carbs( g),Prot( g)
-Total,1524,48.54,136.25,55.65
+Total,1586,50.42,145.23,58.3
 Breakfast,154,7.89,11.32,9.36
-Lunch,365,10.35,35.45,14.34
+Lunch,405,11.12,41.81,16.35
 Dinner,664,21.19,69.12,22.44
-Snacks/Other,341,9.11,20.37,9.51
+Snacks/Other,364,10.22,22.99,10.15
 
 #-------------------------------------------
 # Report Details
@@ -381,7 +381,7 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
   Thai Kitchen Coconut Milk,354,35.45,30.38,7.6,0,2.53,2.53,50.64,0,0
    200 ml
 
-"Monday, September 21, 2020",878,42.87,17.244,89.2,5.8,10.6,36.17,1698,471,699
+"Monday, September 21, 2020",999,52.87,18.674,92.77,7.23,12.03,41.17,1805.1,471,841.8
  Breakfast,429,24.72,7.127,35.78,3.6,5.04,17.19,535,434,626
   Potato,161,3.72,0.71,30.01,2.6,1.27,2.57,394,0,491
    155 g
@@ -405,9 +405,11 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
   Huy Fong Foods Sriracha Hot Chili Sauce,15,0,,3,0,3,0,240,0,
 "   3 x 1 tsp, 15 g"
  Dinner,,,,,,,,,,
- Snacks/Other,,,,,,,,,,
+ Snacks/Other,121,10,1.43,3.57,1.43,1.43,5,107.1,0,142.8
+  Planters Dry Roasted Peanuts,121,10,1.43,3.57,1.43,1.43,5,107.1,0,142.8
+   20 g
 
-"Tuesday, September 22, 2020",512,24.31,6.908,52.67,2.7,5.11,21.98,1061,423,473
+"Tuesday, September 22, 2020",1519,48.22,15.715,210.75,30.63,33.55,64.55,3345.1,441,1050.8
  Breakfast,512,24.31,6.908,52.67,2.7,5.11,21.98,1061,423,473
   Mission Soft Taco Flour Tortillas (Medium),280,7,3,48,2,2,8,840,0,
 "   2 x 1 tortilla, 98 g"
@@ -421,8 +423,20 @@ Date,Cals ( kcal),Fat( g),Sat( g),Carbs( g),Fiber( g),Sugar( g),Prot( g),Sod( mg
    3 mugs (8 fl oz)
   Grape Tomatoes,9,0.09,0.022,1.86,0.6,1.25,0.42,2,0,
    6 grape
- Lunch,,,,,,,,,,
+ Lunch,726,13.91,7.377,114.51,23,2.01,36.07,2171,18,2
+  Mission Soft Taco Flour Tortillas (Medium),280,7,3,48,2,2,8,840,0,
+"   2 x 1 tortilla, 98 g"
+  ShopRite Canned White Beans,385,0,0,66.5,21,0,28,1330,0,
+   3 1/2 x 1/2 cup
+  Butter ,61,6.91,4.377,0.01,0,0.01,0.07,1,18,2
+   0.6 tbsp
  Dinner,,,,,,,,,,
- Snacks/Other,,,,,,,,,,
+ Snacks/Other,281,10,1.43,43.57,4.93,26.43,6.5,113.1,0,575.8
+  Great Value Raisins,60,0,0,16,0.5,12,0.5,0,0,150
+"   1/2 x 1/4 cup, 20 g"
+  Planters Dry Roasted Peanuts,121,10,1.43,3.57,1.43,1.43,5,107.1,0,142.8
+   20 g
+  Sunsweet Dried Pitted Prunes,100,0,0,24,3,13,1,6,0,283
+"   5 prunes, 40 g"
 
-Total,27425,873.69,329.85,2452.57,190.29,404.23,1001.78,42609.6,4365.5,22336.74
+Total,28553,907.6,340.087,2614.22,219.65,434.1,1049.35,45000.8,4383.5,23057.34
