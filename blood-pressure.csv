@@ -79,3 +79,8 @@ Systolic,Diastolic,Pulse,Date/Time,Note
 135,70,80,Dec 18 2020 01:46:00 AM -05:00,
 130,71,72,Dec 18 2020 03:30:00 AM -05:00,
 138,73,76,Dec 18 2020 01:39:00 PM -05:00,"Prior to meds, after coffee, sitting +10"
+143,75,76,Dec 18 2020 03:59:00 PM -05:00,"1 hour after meds, 2 minutes after sitting down"
+143,79,69,Dec 19 2020 02:36:00 AM -05:00,
+145,69,76,Dec 19 2020 10:00:00 PM -05:00,"Seated 15 min, ate dinner, meds taken 5 min ago"
+123,58,74,Dec 20 2020 01:55:00 AM -05:00,"Ate, sat for at least half an hour, meds 4 hours ago, started nodding off, took reading"
+126,65,77,Dec 20 2020 10:42:00 PM -05:00,"Meds taken miid afternoon (6 hours ago), sitting half an hour"
