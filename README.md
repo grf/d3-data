@@ -1,4 +1,5 @@
 # d3-data
+
 Data files for d3.js experiments
 
 The program 'export' massages data from Fitbit and Fat Secret, as well as the data in 'weight.csv'; see
